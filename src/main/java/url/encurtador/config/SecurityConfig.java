@@ -30,7 +30,7 @@ public class SecurityConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(List.of("http://localhost:5173")); // Defina explicitamente a origem
+        configuration.setAllowedOrigins(List.of("https://encurtadordeurl.onrender.com")); // Defina explicitamente a origem
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("*")); // Permite todos os cabeçalhos
         configuration.setAllowCredentials(true); // Permite envio de credenciais
