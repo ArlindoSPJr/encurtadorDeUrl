@@ -9,7 +9,7 @@ export default function App() {
         e.preventDefault();
 
         try {
-            const response = await fetch("http://localhost:8080/url/encurtar", {
+            const response = await fetch("https://encurtadordeurl.onrender.com/url/encurtar", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -59,7 +59,7 @@ export default function App() {
                         if (urlEncurtada) {
                             // Remove http:// ou https:// do início, se necessário
                             const codeSemHttp = urlEncurtada.replace(/^https?:\/\//, "");
-                            window.open(`http://localhost:8080/url/${codeSemHttp}`, "_blank");
+                            window.open(`https://encurtadordeurl.onrender.com/url/${codeSemHttp}`, "_blank");
                         }
                     }}
                     style={{ marginTop: "20px" }}
