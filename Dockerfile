@@ -14,6 +14,6 @@ FROM openjdk:17-jdk-slim
 EXPOSE 8080
 
 # Copia o .jar gerado na primeira stage
-COPY --from=build /target/encurtador-1.0-SNAPSHOT.jar app.jar
+COPY --from=build /target/encurtador-0.0.1-SNAPSHOT.jar app.jar
 
 ENTRYPOINT ["java", "-jar", "app.jar"]
