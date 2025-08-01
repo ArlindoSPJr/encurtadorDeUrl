@@ -19,17 +19,17 @@ body {
 }
 
 .form {
-    background: rgb(121, 31, 121);
+    background: linear-gradient(135deg, #1aff80 0%, #0f0 100%);
     color: #111; /* fonte preta */
     padding: 40px 32px;
     border-radius: 16px;
-    box-shadow: 0 0 32px #6a1b9a, 0 0 8px #fff inset;
-    border: 2px solid #b39ddb;
+    box-shadow: 0 0 32px #0f0, 0 0 8px #fff inset;
+    border: 2px solid #00ff99;
     transition: box-shadow 0.3s;
 }
 
 .form:hover {
-    box-shadow: 0 0 48px #b39ddb, 0 0 16px #fff inset;
+    box-shadow: 0 0 48px #00ff99, 0 0 16px #fff inset;
 }
 
 form {
@@ -41,20 +41,20 @@ form {
 }
 
 input[type="text"] {
-    background: #2e1536;
-    color: #fdfcfc; /* fonte branca */
-    border: 1px solid #b39ddb;
+    background: #101f10;
+    color: #fdfcfc; /* fonte preta */
+    border: 1px solid #00ff99;
     border-radius: 8px;
     padding: 8px 16px;
     font-size: 1rem;
-    box-shadow: 0 0 8px #6a1b9a inset;
+    box-shadow: 0 0 8px #0f0 inset;
     outline: none;
     transition: border 0.2s, box-shadow 0.2s;
 }
 
 input[type="text"]:focus {
-    border: 2px solid #6a1b9a;
-    box-shadow: 0 0 16px #b39ddb;
+    border: 2px solid #0f0;
+    box-shadow: 0 0 16px #00ff99;
 }
 
 button {
@@ -67,25 +67,25 @@ button {
     font-family: 'Orbitron', 'Roboto', Arial, sans-serif;
     font-weight: bold;
     cursor: pointer;
-    box-shadow: 0 0 12px #6a1b9a;
+    box-shadow: 0 0 12px #0f0;
     transition: background 0.2s, box-shadow 0.2s;
 }
 
 button:hover {
     background: rgb(179, 179, 179);
-    box-shadow: 0 0 24px #b39ddb;
+    box-shadow: 0 0 24px #00ff99;
 }
 
 label {
     color: #111; /* fonte preta */
-    text-shadow: 0 0 8px #6a1b9a;
+    text-shadow: 0 0 8px #0f0;
     font-weight: bold;
     letter-spacing: 1px;
 }
 
 h2, h1 {
     color: #111; /* fonte preta */
-    text-shadow: 0 0 12px #b39ddb, 0 0 2px #fff;
+    text-shadow: 0 0 12px #0f0, 0 0 2px #fff;
 }
 
 
